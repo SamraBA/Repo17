@@ -62,6 +62,6 @@ function findUser(lastName, gender) {
 // Only change code above this line
 
 getUsers();
-findUser(); // Change this line
+findUser("Doe", "female"); // Change this line
 
 module.exports = findUser;
