@@ -5,11 +5,12 @@ function removeFirstTwo(list) {
   "use strict";
   // Only change code below this line
 
-  const [ , , ...array2] = list; // Change this line
+  const [, , ...array2] = list; // Change this line
 
   // Only change code above this line
   return array2;
 }
+
 
 console.log(removeFirstTwo(array1));
 module.exports = removeFirstTwo;
