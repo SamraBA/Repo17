@@ -63,6 +63,6 @@ function findUserById(id) {
 // findUserById(id) function ends here
 // Only change code above this line
 getUsers();
-findUserById(); // Change this line
+findUserById(2); // Change this line
 
 module.exports = findUserById;
